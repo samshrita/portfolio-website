@@ -166,20 +166,26 @@ function Header() {
             About Me
           </StyledDropdownDivContentA>
           <StyledDropdownDivContentA
-            $isactive={activePage.includes(RoutingLinks.contact)}
-            href={RoutingLinks.contact}
+            $isactive={activePage.includes(RoutingLinks.education)}
+            href={RoutingLinks.education}
           >
             Education
           </StyledDropdownDivContentA>
           <StyledDropdownDivContentA
-            $isactive={activePage.includes(RoutingLinks.education)}
-            href={RoutingLinks.education}
+            $isactive={activePage.includes(RoutingLinks.experience)}
+            href={RoutingLinks.experience}
           >
             Experience
           </StyledDropdownDivContentA>
           <StyledDropdownDivContentA
-            $isactive={activePage.includes(RoutingLinks.experience)}
-            href={RoutingLinks.experience}
+            $isactive={activePage.includes(RoutingLinks.blogs)}
+            href={RoutingLinks.blogs}
+          >
+             Blogs
+          </StyledDropdownDivContentA>
+          <StyledDropdownDivContentA
+            $isactive={activePage.includes(RoutingLinks.contact)}
+            href={RoutingLinks.contact}
           >
             Contact
           </StyledDropdownDivContentA>

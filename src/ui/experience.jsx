@@ -1,18 +1,17 @@
-
 import styled from 'styled-components';
 
 const ExperienceSection = styled.section`
   padding: 50px 0;
-  // background: #f9f9f9;
   font-size: 2rem;
   font-weight: 600;
   color: var(--purple);
-    font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  
   .heading {
     text-align: center;
     font-size: 2rem;
-  font-weight: 600;
-  color: var(--purple);
+    font-weight: 600;
+    color: var(--purple);
     margin-bottom: 30px;
     i {
       margin-right: 30px;
@@ -23,15 +22,19 @@ const ExperienceSection = styled.section`
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    
     &::after {
       content: '';
-      position: relative;
-      width: 6px;
+      position: absolute;
+      width: 0px;
       background-color: #ddd;
       top: 0;
       bottom: 0;
       left: 50%;
-      margin-left: -3px;
+      // margin-left: 0px;
+      @media (max-width: 768px) {
+        left: 20px;
+      }
     }
   }
 
@@ -40,7 +43,7 @@ const ExperienceSection = styled.section`
     position: relative;
     background-color: inherit;
     width: 100%;
-
+    
     &.left {
       left: 0;
     }
@@ -57,10 +60,13 @@ const ExperienceSection = styled.section`
       right: -17px;
       background-color: #fff;
       border: 4px solid #ff9f55;
-      font-family: "Space Grotesk", sans-serif;
       top: 15px;
       border-radius: 50%;
       z-index: 1;
+      @media (max-width: 768px) {
+        left: -17px;
+        right: auto;
+      }
     }
   }
 
@@ -73,11 +79,19 @@ const ExperienceSection = styled.section`
     background-color: white;
     position: relative;
     border-radius: 6px;
+
     &.right {
       margin-left: 10px;
+      @media (max-width: 768px) {
+        margin-left: 0;
+      }
     }
+
     &.left {
       margin-right: 60px;
+      @media (max-width: 768px) {
+        margin-right: 0;
+      }
     }
   }
 
@@ -90,11 +104,13 @@ const ExperienceSection = styled.section`
 
   .desc {
     margin-top: 10px;
+    
     h3 {
       margin: 0;
       font-size: 1.2rem;
       color: #333;
     }
+
     p {
       margin: 0;
       font-size: 1rem;
@@ -105,6 +121,7 @@ const ExperienceSection = styled.section`
   .morebtn {
     text-align: center;
     margin-top: 20px;
+    
     .btn {
       text-decoration: none;
       color: #fff;
@@ -113,12 +130,36 @@ const ExperienceSection = styled.section`
       border-radius: 5px;
       display: inline-block;
       transition: background 0.3s;
+
       &:hover {
         background: #ff7f26;
       }
+
       i {
         margin-left: 10px;
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .timeline {
+      &::after {
+        left: 20px;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+      
+      &.right {
+        left: 0%;
+      }
+    }
+
+    .container.left::after, .container.right::after {
+      left: -17px;
     }
   }
 `;
@@ -136,13 +177,11 @@ function Experience() {
               <h2>Code Rush</h2>
             </div>
             <div className="desc">
-              <h3>CLoud Security Apprentice</h3>
+              <h3>Cloud Security Apprentice</h3>
               <p>December 2023 - present</p>
             </div>
           </div>
         </div>
-
-
         <div className="container left">
           <div className="content">
             <div className="tag">
@@ -155,7 +194,6 @@ function Experience() {
           </div>
         </div>
       </div>
-
     </ExperienceSection>
   );
 }

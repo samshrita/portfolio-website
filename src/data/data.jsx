@@ -136,7 +136,7 @@ export default function ProjectList() {
         },
       ],
 
-      ghubLink: "https://github.com/Znis/monument-recognition.git",
+      ghubLink: "https://github.com/samshrita/Monument-Recognition-System",
       carouselImg: {
         web: [],
 
@@ -181,6 +181,7 @@ export default function ProjectList() {
       },
       demoLink:
         "https://github.com/Znis/monument-recognition/releases/tag/apkfile",
+        //change here  regarding releases  https://github.com/Znis/monument-recognition/releases/tag/apkfile 
       videoDemo: "https://www.youtube.com/embed/JQKLWwSyBII",
       projectRoute: RoutingLinks.projects + "/monument-recognition",
       hasNote: true,
@@ -317,7 +318,7 @@ export default function ProjectList() {
       targetedPlatform: [
         { alt: "Web Platform", title: "Web Platform", src: "web-icon.png" },
       ],
-      ghubLink: "https://github.com/Znis/deepfake-video-detection-project",
+      ghubLink: "https://github.com/samshrita/Deepfake-Video-Detection-",
       carouselImg: {
         web: [
           { imgSrc: "deepfake-detection-web-application-images/web/1.jpg", imgTitle: "Homepage" },
@@ -598,7 +599,11 @@ export const RoutingLinks = {
 export const Gallery = {
   path: "gallery/",
   img: [
-    { imgSrc: "2.jpg", imgAlt: "One Horned Rhino", imgTitle: "One Horned Rhino" },
+    { imgSrc: "16.jpg", imgAlt: "Graduation", imgTitle: "Graduation" },
+    { imgSrc: "12.jpg", imgAlt: "Mountain", imgTitle: "Mountain" },
+    { imgSrc: "15.jpg", imgAlt: "Kyanjin Ri", imgTitle: "Kyanjin Ri" },
+    { imgSrc: "7.jpg", imgAlt: "ArtGallery", imgTitle: "ArtGallery" },
+    { imgSrc: "17.jpg", imgAlt: "Ghandruk", imgTitle: "Ghandruk" },
     { imgSrc: "1.jpg", imgAlt: "Elephant", imgTitle: "Elephant" },
     { imgSrc: "11.jpg", imgAlt: "Futsal", imgTitle: "Futsal" },
     { imgSrc: "3.jpg", imgAlt: "Futsal-win", imgTitle: "Futsal-win" },
@@ -607,6 +612,7 @@ export const Gallery = {
     { imgSrc: "10.jpg", imgAlt: "Costume", imgTitle: "Costume" },
     { imgSrc: "8.jpg", imgAlt: "Dress", imgTitle: "Dress" },   
      { imgSrc: "9.jpg", imgAlt: "Pigeon", imgTitle: "Pigeon" },
-     { imgSrc: "7.jpg", imgAlt: "ArtGallery", imgTitle: "ArtGallery" },
+     { imgSrc: "2.jpg", imgAlt: "One Horned Rhino", imgTitle: "One Horned Rhino" },
+     { imgSrc: "19.jpg", imgAlt: "Langtang", imgTitle: "Langtang" },
   ],
 };

@@ -66,7 +66,7 @@ function Education() {
           <div className="w-full flex flex-col items-center gap-4 lg:w-1/2 lg:items-start lg:gap-0">
             <h3>Bachelor of Computer Engineering</h3>
             <p>Khwopa College Of Engineering</p>
-            <h4>2019-2024 | Recent Graduate</h4>
+            <h4>2019-2024</h4>
           </div>
           <div className="flex py-8 w-3/4 lg:w-1/2">
             <div style={divStyle}>

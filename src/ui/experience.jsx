@@ -171,6 +171,28 @@ function Experience() {
         <i className="fas fa-briefcase"></i> Experience
       </h2>
       <div className="timeline">
+      <div className="container right">
+          <div className="content">
+            <div className="tag">
+              <h2>Genese Solution</h2>
+            </div>
+            <div className="desc">
+              <h3>Cybersecurity Engineer Associate</h3>
+              <p>October 2024- Present</p>
+            </div>
+          </div>
+        </div>
+        <div className="container left">
+          <div className="content">
+            <div className="tag">
+              <h2>Focusone Payment Solution</h2>
+            </div>
+            <div className="desc">
+              <h3>Infrastructure Engineer Trainee</h3>
+              <p>September 2024- October 2024</p>
+            </div>
+          </div>
+        </div>
         <div className="container right">
           <div className="content">
             <div className="tag">
@@ -178,7 +200,7 @@ function Experience() {
             </div>
             <div className="desc">
               <h3>Cloud Security Apprentice</h3>
-              <p>December 2023 - present</p>
+              <p>December 2023 - August 2024</p>
             </div>
           </div>
         </div>

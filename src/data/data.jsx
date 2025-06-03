@@ -180,7 +180,7 @@ export default function ProjectList() {
         ],
       },
       demoLink:
-        "https://github.com/samshrita/portfolio-website/releases/tag/APK_File",
+        "https://github.com/samshrita/Monument-Recognition-System/releases/tag/APK_File",
         //change here  regarding releases  https://github.com/Znis/monument-recognition/releases/tag/apkfile 
       videoDemo: "https://www.youtube.com/embed/JQKLWwSyBII",
       projectRoute: RoutingLinks.projects + "/monument-recognition",

@@ -34,7 +34,9 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
         env:
           VITE_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
           VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
@@ -42,12 +44,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: Preload upload-artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dummy
-          path: README.md
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

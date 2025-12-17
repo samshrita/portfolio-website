@@ -149,21 +149,20 @@ function AboutMePage() {
     <div className="w-4/5 pb-20 flex flex-col items-center text-center justify-center lg:w-3/5 ">
       <Carousel cards={cards} offset={2} showArrows={false} />
       <H1>About Me</H1>
-          <p>
-            I am a cybersecurity professional and current MTech Computer Science student at IIT Indore, where I spend my days (and far too many nights) deciphering the complex world of secure architectures and machine learning. My journey has taken me from performing VAPT for major banks to building AI systems that can spot a deepfake faster than I can spot a good plate of momo. Whether I’m managing SIEM platforms like Wazuh and CrowdStrike or leading penetration tests, I approach every challenge with the same philosophy: security should be as airtight as my favorite thriller movie plot. I’m a CompTIA Security+ and AWS Certified practitioner who believes that while technology evolves, the goal remains the same—building a digital world that is both innovative and incredibly hard to break.
-          </p>
-            {/* <p>
-              I am a recent graduate with a Bachelor&apos;s degree in Computer Engineering, based in Bhaktapur, Nepal. At 22, I am passionate about software development and machine learning, and I&apos;m excited to dive into the tech world. My academic coursework and personal projects have sharpened my skills in these areas. I find the ever-evolving tech industry endlessly fascinating and enjoy exploring both software and hardware innovations. I&apos;m eager to apply my knowledge and creativity as I take the next step in my engineering career.
-          </p> */}
-          <br />
-          <p>
-              Outside of coding, I love immersing myself in music, which fuels my creativity and focus. Socializing and participating in local festivals enriches my life, allowing me to connect with my community and celebrate our vibrant culture. I also enjoy hiking scenic trails and experimenting with photography 📷.
-          </p>
-          <br />
-            <p>
-              I am a big fan of movies, especially Thriller, romcom, horror🍿, and love trying out new cuisines. I cherish quiet moments but also enjoy social gatherings and parties 🎉. I am enthusiastic about the future and look forward to contributing to the dynamic world of technology.
-          </p>
-          
+        <p>
+          I am currently pursuing my MTech in Computer Science and Engineering at IIT Indore , where I balance academic research with my background as an Associate Cybersecurity Engineer. My professional journey has seen me performing VAPT for Class A and B banks and managing SOC operations through platforms like Wazuh and CrowdStrike. I specialize in the intersection of security and AI, having developed systems to detect deepfakes and recognize monuments in real-time. Essentially, I spend my days building digital guards that can spot a vulnerability or a &apos;fake&apos; faster than a plot twist in my favorite thriller movies.
+        </p>
+          <br></br>
+        <p>
+
+          Beyond the command line, I am a firm believer in community impact and high-energy leadership. As a Board Member of Youth Echo Nepal, I lead internet safety programs in schools and help launch platforms like the Bhaktapur IT Club to foster local innovation. When I&apos;m not defending servers, you&apos;ll likely find me on the futsal court, where I&apos;ve managed to collect a few championship trophies and only a modest number of bruises. My work as a Secretary at Siru Youth Club  allows me to trade server hardening for community service, proving that organizing a youth summit is just as rewarding as securing a network.
+
+        </p>
+        <br></br>
+        <p>
+
+          Outside of tech and volunteering, I am a Bhaktapur local  with a serious appreciation for the finer things in life: hiking scenic trails, experimenting with photography, and hunting for the world&apos;s best cuisines. I am a CompTIA Security+ and AWS Certified practitioner  who takes my work seriously, but myself? Not so much. Whether I&apos;m immersing myself in music, celebrating local festivals, or debating the merits of a new horror film🍿, I approach life with the same enthusiasm I bring to engineering. I&apos;m always looking for the next challenge that allows me to blend AI, security, and a bit of social impact ideally while staying caffeinated☕.
+         </p>           
 <Education />
 
           

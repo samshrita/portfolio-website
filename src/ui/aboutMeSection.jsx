@@ -120,18 +120,7 @@ function AboutMeSection() {
           </div>
           <div className="w-full flex flex-col items-center gap-4 lg:w-1/2 lg:items-start lg:gap-0">
             <P>
-              I&apos;m a recent graduate who have completed the Bachelor&apos;s
-              degree in Computer Engineering, 🎓 on a path to becoming a
-              proficient software developer and machine learning engineer. I
-              have hands-on experience in full-stack web development and mobile
-              app development through self-initiated projects. I&apos;m
-              currently delving into the fascinating field of machine learning.
-              <br></br>My passion lies in solving real-world problems through
-              creative coding. I&apos;m dedicated to continuous learning,
-              teamwork, and crafting efficient, user-friendly solutions. My goal
-              is to make a positive impact in the software development and
-              engineering world by pushing boundaries and delivering excellence
-              in every project. 
+              I am an MTech student at IIT Indore and a Cybersecurity Engineer who has spent significant time in the trenches of SOC operations and VAPT for major financial institutions. My technical DNA is a mix of secure architecture and Machine Learning; I&apos;ve built systems to detect deepfakes and identify monuments in real-time essentially acting as a digital bodyguard who can spot a fake faster than a plot twist in my favorite thriller movies. When I&apos;m not hardening servers or defending banks, I&apos;m a futsal champion, a community leader for Youth Echo Nepal, and a CompTIA Security+ certified professional who is officially qualified to tell you why your password shouldn&apos;t be &apos;123456&apos;. Whether I&apos;m hiking scenic trails or launching IT clubs, I&apos;m always looking for the next challenge that blends high-level security with a bit of social impact and a lot of caffeine.
             </P>
             <A href={RoutingLinks.about}>
               Learn More <AiOutlineArrowRight />

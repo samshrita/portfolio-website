@@ -60,6 +60,16 @@ function Education() {
         <div className="flex flex-col items-center flex-wrap lg:flex-row lg:items-start">
           <div className="flex py-8 w-3/4 lg:w-1/2">
             <div style={divStyle}>
+              <StyledImg src="IITI.jpg" alt="Indian Institute of Technology Indore" />
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-center gap-4 lg:w-1/2 lg:items-start lg:gap-0">
+            <h3>MTech in Computer Science and Engineering </h3>
+            <p>Indian Institute of Technology INdore</p>
+            <h4>2025-2027</h4>
+          </div>
+          <div className="flex py-8 w-3/4 lg:w-1/2">
+            <div style={divStyle}>
               <StyledImg src="khwopa.jpg" alt="Khwopa College" />
             </div>
           </div>

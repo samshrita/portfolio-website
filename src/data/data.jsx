@@ -601,18 +601,23 @@ export const Gallery = {
   img: [
     { imgSrc: "16.jpg", imgAlt: "Graduation", imgTitle: "Graduation" },
     { imgSrc: "12.jpg", imgAlt: "Mountain", imgTitle: "Mountain" },
+        { imgSrc: "21.jpeg", imgAlt: "Bike", imgTitle: "Bike" },
     { imgSrc: "15.jpg", imgAlt: "Kyanjin Ri", imgTitle: "Kyanjin Ri" },
     { imgSrc: "7.jpg", imgAlt: "ArtGallery", imgTitle: "ArtGallery" },
     { imgSrc: "17.jpg", imgAlt: "Ghandruk", imgTitle: "Ghandruk" },
+         { imgSrc: "20.jpeg", imgAlt: "Sunset", imgTitle: "Sunset" },
+     { imgSrc: "22.jpeg", imgAlt: "LangtangDog", imgTitle: "LangtangDog" },
     { imgSrc: "1.jpg", imgAlt: "Elephant", imgTitle: "Elephant" },
     { imgSrc: "11.jpg", imgAlt: "Futsal", imgTitle: "Futsal" },
     { imgSrc: "3.jpg", imgAlt: "Futsal-win", imgTitle: "Futsal-win" },
     { imgSrc: "4.jpg", imgAlt: "Swing", imgTitle: "Swing" },
-    { imgSrc: "6.jpg", imgAlt: "Bike", imgTitle: "Bike" },
+    // { imgSrc: "6.jpg", imgAlt: "Bike", imgTitle: "Bike" },
     { imgSrc: "10.jpg", imgAlt: "Costume", imgTitle: "Costume" },
     { imgSrc: "8.jpg", imgAlt: "Dress", imgTitle: "Dress" },   
      { imgSrc: "9.jpg", imgAlt: "Pigeon", imgTitle: "Pigeon" },
      { imgSrc: "2.jpg", imgAlt: "One Horned Rhino", imgTitle: "One Horned Rhino" },
      { imgSrc: "19.jpg", imgAlt: "Langtang", imgTitle: "Langtang" },
+
+
   ],
 };

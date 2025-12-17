@@ -149,9 +149,12 @@ function AboutMePage() {
     <div className="w-4/5 pb-20 flex flex-col items-center text-center justify-center lg:w-3/5 ">
       <Carousel cards={cards} offset={2} showArrows={false} />
       <H1>About Me</H1>
-            <p>
-              I am a recent graduate with a Bachelor&apos;s degree in Computer Engineering, based in Bhaktapur, Nepal. At 22, I am passionate about software development and machine learning, and I&apos;m excited to dive into the tech world. My academic coursework and personal projects have sharpened my skills in these areas. I find the ever-evolving tech industry endlessly fascinating and enjoy exploring both software and hardware innovations. I&apos;m eager to apply my knowledge and creativity as I take the next step in my engineering career.
+          <p>
+            I am a cybersecurity professional and current MTech Computer Science student at IIT Indore, where I spend my days (and far too many nights) deciphering the complex world of secure architectures and machine learning. My journey has taken me from performing VAPT for major banks to building AI systems that can spot a deepfake faster than I can spot a good plate of momo. Whether I’m managing SIEM platforms like Wazuh and CrowdStrike or leading penetration tests, I approach every challenge with the same philosophy: security should be as airtight as my favorite thriller movie plot. I’m a CompTIA Security+ and AWS Certified practitioner who believes that while technology evolves, the goal remains the same—building a digital world that is both innovative and incredibly hard to break.
           </p>
+            {/* <p>
+              I am a recent graduate with a Bachelor&apos;s degree in Computer Engineering, based in Bhaktapur, Nepal. At 22, I am passionate about software development and machine learning, and I&apos;m excited to dive into the tech world. My academic coursework and personal projects have sharpened my skills in these areas. I find the ever-evolving tech industry endlessly fascinating and enjoy exploring both software and hardware innovations. I&apos;m eager to apply my knowledge and creativity as I take the next step in my engineering career.
+          </p> */}
           <br />
           <p>
               Outside of coding, I love immersing myself in music, which fuels my creativity and focus. Socializing and participating in local festivals enriches my life, allowing me to connect with my community and celebrate our vibrant culture. I also enjoy hiking scenic trails and experimenting with photography 📷.

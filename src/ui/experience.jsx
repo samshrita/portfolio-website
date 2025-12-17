@@ -178,7 +178,7 @@ function Experience() {
             </div>
             <div className="desc">
               <h3>Cybersecurity Engineer Associate</h3>
-              <p>October 2024- Present</p>
+              <p>October 2024- July 2025</p>
             </div>
           </div>
         </div>
